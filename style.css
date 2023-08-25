@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto Sans', sans-serif;
+    font-size: 16px;
 }
 
 .content {
@@ -79,4 +80,106 @@ body {
 .hero-image {
     height: auto;
     width: 420px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.info-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.title-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.advantages {
+    display: flex;
+    gap: 32px;
+    padding: 0 32px;
+}
+
+.adv-show {
+    width: 150px;
+    text-align: center;
+}
+
+.illustration {
+    height: 155px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.adv-subtext {
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.quote-content {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.cta {
+    background-color: #3882f6;
+    max-width: 1080px;
+    margin: 64px auto;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cta .content {
+    max-width: 700px;
+    justify-content: space-between;
+}
+
+.cta-title,
+.cta-subtitle {
+    color: #f9faf8;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sign-up-cta {
+    border: 1px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #f9faf8;
 }
